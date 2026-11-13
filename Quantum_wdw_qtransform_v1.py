@@ -307,7 +307,7 @@ NEXT       -> [6, x, 15, y, 21, z, 36]
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6676 | Prosek pogodaka: 1.185
 Test       -> NLL: 3.6751 | Prosek pogodaka: 1.218
-NEXT       -> [1, x, 4, y, 9, z, 15]
+NEXT       -> [1, 3, 4, 6, 9, 12, 15] -> PETICA
 ----------------------------------------------------
 """
 
