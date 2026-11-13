@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -295,19 +295,19 @@ Posebnost: Kauzalna vreme-frekvencija analiza sa izbeljivanjem i kvantna projekc
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6667 | Prosek pogodaka: 1.258
 Test       -> NLL: 3.6650 | Prosek pogodaka: 1.308
-NEXT       -> [11, 12, 14, 15, 21, 24, 27]
+NEXT       -> [11, x, 14, y, 21, z, 27]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6676 | Prosek pogodaka: 1.268
 Test       -> NLL: 3.6687 | Prosek pogodaka: 1.345
-NEXT       -> [6, 13, 15, 16, 21, 24, 36]
+NEXT       -> [6, x, 15, y, 21, z, 36]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6676 | Prosek pogodaka: 1.185
 Test       -> NLL: 3.6751 | Prosek pogodaka: 1.218
-NEXT       -> [1, 3, 4, 6, 9, 12, 15]
+NEXT       -> [1, x, 4, y, 9, z, 15]
 ----------------------------------------------------
 """
 
