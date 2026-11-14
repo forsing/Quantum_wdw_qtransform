@@ -16,7 +16,7 @@ Loto Skraceni Sistemi
 https://www.lotoss.info
 ABBREVIATED LOTTO SYSTEMS
  
- 
+     
 svih 4718 izvlacenja
 30.07.1985.- 10.11.2026.
 loto    2981 kombinacija
