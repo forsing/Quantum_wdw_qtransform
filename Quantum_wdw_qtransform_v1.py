@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/data/loto7_4718_k90.csv"),
-    Path("/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 
@@ -288,6 +288,29 @@ if __name__ == "__main__":
 
 
 """
+Metoda: Q-Transform PSD Whitening + Wheeler-DeWitt Quantum State (6 qubita)
+Posebnost: Kauzalna vreme-frekvencija analiza sa izbeljivanjem i kvantna projekcija amplituda
+====================================================
+CSV: loto7_4720_k91.csv (kola: 4720)
+Validacija -> NLL: 3.6668 | Prosek pogodaka: 1.256
+Test       -> NLL: 3.6650 | Prosek pogodaka: 1.306
+NEXT       -> [12, x, 17, y, 21, z, 27]
+----------------------------------------------------
+CSV: loto7_4720_k91_loto_2982.csv (kola: 2982)
+Validacija -> NLL: 3.6676 | Prosek pogodaka: 1.268
+Test       -> NLL: 3.6686 | Prosek pogodaka: 1.346
+NEXT       -> [13, x, 16, y, 21, z, 27]
+----------------------------------------------------
+CSV: loto7_4720_k91_loto_plus_1738.csv (kola: 1738)
+Validacija -> NLL: 3.6675 | Prosek pogodaka: 1.188
+Test       -> NLL: 3.6752 | Prosek pogodaka: 1.215
+NEXT       -> [1, x, 4, y, 9, z, 15]
+----------------------------------------------------
+
+
+
+
+
 Metoda: Q-Transform PSD Whitening + Wheeler-DeWitt Quantum State (6 qubita)
 Posebnost: Kauzalna vreme-frekvencija analiza sa izbeljivanjem i kvantna projekcija amplituda
 ====================================================
