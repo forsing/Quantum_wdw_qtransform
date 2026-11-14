@@ -7,7 +7,7 @@
 | **macOS**                   | Tahoe 27.0.1|
 | **Apple**                   | M1 Pro 16 GB|
 
- 
+       
 https://github.com/forsing
 https://github.com/forsing?tab=repositories
  
